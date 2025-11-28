@@ -1,0 +1,41 @@
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+}
+
+.add-container{
+    width: 100%;
+}
+
+h1{
+    font-weight: bold;
+}
+
+input{
+    padding: 0.4rem;
+    width: 70%;
+    border-radius: 8px;
+}
+
+button{
+    background-color: rgb(131, 250, 62);
+    color: #000;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.4rem;
+}
+
+li{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
